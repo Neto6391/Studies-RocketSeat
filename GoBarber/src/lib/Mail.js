@@ -30,9 +30,8 @@ class Mail {
                     defaultLayout: 'default',
                     extname: '.hbs',
                 }),
-                viewPath: {
-                    extName: '.hbs',
-                },
+                viewPath,
+                extName: '.hbs',
             })
         );
     }
